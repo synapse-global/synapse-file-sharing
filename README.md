@@ -1,14 +1,9 @@
-# File sharing
+# File-sharing
+![banner_files.png](banner_files.png)
 
 ---
 
 Сайт для хранения различных документов с возможностью их открытия в браузере
-
-|                                                                                  |                                                                 |
-|:--------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![logo.png](https://static.djangoproject.com/img/logos/django-logo-negative.svg) | ![logo.png](https://www.django-rest-framework.org/img/logo.png) | 
-|                                    **Django**                                    |                    **Django REST Framework**                    | 
-
 
 Это приложение написано на Django и Django REST Framework.
 
@@ -33,7 +28,9 @@ cp .env.example .env
 ```
 ### 4. Запуск сборки docker-контейнера
 
-```docker-compose up --build```
+```bash
+docker-compose up --build
+```
 
 ### 5. Создание учетной записи администратора
 
