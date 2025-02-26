@@ -13,7 +13,7 @@
 ### 1. Клонирование репозитория
 
 ```bash 
-git clone https://github.com/synapse-global/file-sharing.git
+https://github.com/synapse-global/synapse-file-sharing.git
 ```
 ### 2. Переход в каталог проекта
 
@@ -44,7 +44,7 @@ docker-compose exec web python manage.py collectstatic
 ```
 
 ### 7. Переход в администрацию сайта, где хранятся все файлы
-В браузере перейдите по адресу http://127.0.0.1:8000/admin/login/
+В браузере перейдите по адресу http://127.0.0.1:8025/admin/login/
 
 Введите логин и пароль администратора
 
@@ -61,6 +61,7 @@ docker-compose exec web python manage.py collectstatic
 
 - file - хранит в себе файлы
 - key - уникальный ключ для открытия файла в браузере
+- name - наименование вашего файла
 </details>
 
 <details>
