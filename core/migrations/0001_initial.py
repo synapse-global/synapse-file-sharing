@@ -15,12 +15,12 @@ class Migration(migrations.Migration):
             name='Files',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('file', models.FileField(upload_to='files/', verbose_name='Файл')),
-                ('key', models.CharField(default='', max_length=255, unique=True, verbose_name='Ключ')),
+                ('file', models.FileField(upload_to='files/', verbose_name='File')),
+                ('key', models.CharField(default='', max_length=255, unique=True, verbose_name='Key')),
             ],
             options={
-                'verbose_name': 'Файл',
-                'verbose_name_plural': 'Файлы',
+                'verbose_name': 'File',
+                'verbose_name_plural': 'Files',
             },
         ),
     ]

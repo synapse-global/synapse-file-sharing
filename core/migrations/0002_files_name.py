@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='files',
             name='name',
-            field=models.CharField(blank=True, max_length=1025, null=True, verbose_name='Наименование'),
+            field=models.CharField(blank=True, max_length=1025, null=True, verbose_name='Name'),
         ),
     ]
