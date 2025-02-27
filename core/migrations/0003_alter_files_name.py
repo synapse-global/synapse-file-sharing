@@ -14,7 +14,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='files',
             name='name',
-            field=models.CharField(default=django.utils.timezone.now, max_length=1025, verbose_name='Наименование'),
+            field=models.CharField(default=django.utils.timezone.now, max_length=1025, verbose_name='Name'),
             preserve_default=False,
         ),
     ]

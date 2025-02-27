@@ -119,8 +119,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 URL_ADMIN = os.getenv('URL_ADMIN')
 
 UNFOLD = {
-    "SITE_TITLE": "File Sharing",
-    "SITE_HEADER": "Файлообменник",
+    "SITE_TITLE": "Synapse File Sharing",
+    "SITE_HEADER": "Synapse File Sharing",
     "SIDEBAR": {
         "show_search": True,
         "show_all_applications": True,
@@ -131,7 +131,7 @@ UNFOLD = {
                 "collapsible": False,
                 "items": [
                     {
-                        "title": "Главная",
+                        "title": "Home",
                         "icon": "home",
                         "link": reverse_lazy("admin:index"),
                     },
@@ -142,7 +142,7 @@ UNFOLD = {
                 "collapsible": False,
                 "items": [
                     {
-                        "title": "Файлы",
+                        "title": "Files",
                         "icon": "upload_file",
                         "link": reverse_lazy("admin:core_files_changelist"),
                     },
